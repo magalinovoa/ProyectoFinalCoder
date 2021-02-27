@@ -136,14 +136,12 @@ footer a {
   text-decoration: none;
   color: white;
   font-weight: 500;
-  /* transition: all 1s; */
   font-size: 15px;
   padding: 0 5%;
   transition: ease 1s;
 }
 
 footer a:hover {
-  /* font-size: 16px; */
   color: #f7dfe9;
   font-weight: bolder;
 }
@@ -190,8 +188,6 @@ footer a:hover {
 .inicio-proyectos-container {
   padding: 0;
   margin-bottom: 10%;
-  /* display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%; */
 }
 
 .inicio_proyectos {
@@ -244,7 +240,6 @@ footer a:hover {
 /*2.CONTACTO*/
 
 .contacto_container {
-  /* height: 600px; */
   display: grid;
   grid-template-columns: 40% 60%;
 }
@@ -386,6 +381,7 @@ footer a:hover {
 .experiencia_section h2 {
   margin-bottom: 20px;
 }
+
 /*5. Sobre mi*/
 
 .sobre-mi_hero {
@@ -421,11 +417,6 @@ footer a:hover {
     width: 100%;
   }
 
-  /* section {
-    margin: 10px 0px;
-    padding: 0;
-  } */
-
   .section-one {
     padding-top: 5%;
   }
@@ -437,11 +428,6 @@ footer a:hover {
   footer {
     width: 90%;
     padding: 5%;
-  }
-
-  footer iframe {
-    width: 50%;
-    height: 50%;
   }
 
   .mobile-navbar {
@@ -581,11 +567,6 @@ footer a:hover {
   footer {
     width: 90%;
     padding: 5%;
-  }
-
-  footer iframe {
-    width: 50%;
-    height: 50%;
   }
 
   .mobile-navbar {
