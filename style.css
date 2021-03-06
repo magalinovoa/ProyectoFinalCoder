@@ -52,39 +52,39 @@ header {
   position: fixed;
   width: 100%;
   z-index: 10;
+  display: flex;
+  justify-content: space-around;
 }
 
 header h1 {
   font-size: 25px;
   text-align: left;
   text-transform: uppercase;
-  display: inline;
-  padding-right: 150px;
+  display: block;
 }
 
 .nav-header {
   text-align: right;
   word-spacing: 15px;
-  display: inline;
-  padding-left: 200px;
-  padding-right: 0;
-}
-
-.sobre-mi {
-  word-spacing: 0px;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-header a {
+  display: block;
   text-decoration: none;
   color: #212121;
   text-transform: uppercase;
   font-weight: 500;
-  transition: all 0.5s;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  padding: 0 3%;
+  width: fit-content;
 }
 
 .nav-header a:hover {
-  text-decoration: overline;
-  font-weight: bold;
+  transform: scale(1.2);
+  transition: all 1s;
 }
 
 /*Primera section/elemento de cada pagina*/
