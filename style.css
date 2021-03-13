@@ -54,6 +54,7 @@ header {
   z-index: 10;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 header h1 {
@@ -65,24 +66,24 @@ header h1 {
 
 .nav-header {
   text-align: right;
-  word-spacing: 15px;
   display: flex;
   justify-content: center;
+  width: 70%;
 }
 
-.nav-header a {
-  display: block;
+.navlink {
   text-decoration: none;
   color: #212121;
   text-transform: uppercase;
   font-weight: 500;
+  display: block;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
   padding: 0 3%;
-  width: fit-content;
 }
 
-.nav-header a:hover {
+.nav-header .navlink:hover {
+  color: #212121;
   transform: scale(1.2);
   transition: all 1s;
 }
@@ -386,6 +387,10 @@ footer a:hover {
   list-style: none;
 }
 
+.experiencia_item h5 {
+  font-weight: 700;
+}
+
 .experiencia_section h2 {
   margin-bottom: 20px;
 }
@@ -534,6 +539,7 @@ footer a:hover {
     padding: 5%;
     display: grid;
     grid-template-columns: auto;
+    margin-bottom: 200px;
   }
 
   .contacto_info-section {
