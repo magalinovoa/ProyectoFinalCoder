@@ -127,7 +127,7 @@ header h1 {
 /*FOOTER*/
 
 footer {
-  padding: 2%;
+  padding: 1%;
   background-color: #8e9aaf;
   color: white;
   text-align: center;
@@ -141,8 +141,7 @@ footer section {
 footer a {
   text-decoration: none;
   color: white;
-  font-weight: 500;
-  font-size: 15px;
+ font-size: 20px;
   padding: 0 5%;
   display: block;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
@@ -251,6 +250,8 @@ footer a:hover {
 .contacto_container {
   display: grid;
   grid-template-columns: 40% 60%;
+  margin-bottom: 5%;
+  padding-top:2%;
 }
 
 .contacto_info {
@@ -263,8 +264,19 @@ footer a:hover {
   text-align: center;
 }
 
-.contacto_info-section h2 {
-  margin: 10% 0%;
+.contacto_info-section a {
+  color: #8e9aaf;
+  text-decoration: none;
+  transition: all 1s;
+  font-size: 18px;
+  display: block;
+  margin: 5% 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.contacto_info-section a:hover {
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .contacto_form-section {
@@ -366,7 +378,7 @@ footer a:hover {
 .experiencia_section-container {
   display: grid;
   grid-template-columns: 33.3% 33.3% 33.3%;
-  margin: 0 2% 10% 2%;
+  margin: 0 2% 2% 2%;
 }
 .experiencia_section {
   text-align: left;
@@ -393,6 +405,29 @@ footer a:hover {
 
 .experiencia_section h2 {
   margin-bottom: 20px;
+}
+
+.experiencia_boton-cv {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  /* width: 80%; */
+  margin: 2% 40% 5% 40%;
+  padding: 1%;
+  border: 0px;
+  border-radius: 50px;
+  background-color: #cbc0d3;
+  transition: all 1s;
+}
+
+.experiencia_boton-cv:hover {
+  background-color: #efd3d7;
+  color: #212121;
+  cursor: pointer;
+  transform: scale(0.95);
 }
 
 /*5. Sobre mi*/
@@ -532,6 +567,11 @@ footer a:hover {
 
   .experiencia_section-container {
     grid-template-columns: auto;
+  }
+
+  .experiencia_boton-cv { 
+    margin: 2% 15% 5% 15%;
+    padding: 4%;
   }
 
   /*CONTACTO*/
@@ -713,7 +753,10 @@ footer a:hover {
   .experiencia_section-container {
     grid-template-columns: auto;
   }
-
+  .experiencia_boton-cv { 
+    margin: 2% 15% 5% 15%;
+    padding: 4%;
+  }
   /*CONTACTO*/
   .contacto_container {
     padding: 5%;
@@ -763,3 +806,10 @@ footer a:hover {
   border-color: #adadc1;
   box-shadow: 0 0 0 0.25rem rgb(173 173 193 / 50%);
 }
+
+.carousel-control-prev-icon {
+  background-image: url(images/round_chevron_left_black_24dp.png);
+}
+
+.carousel-control-next-icon {
+  background-image: url(images/round_chevron_right_black_24dp.png)
