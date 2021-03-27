@@ -141,7 +141,7 @@ footer section {
 footer a {
   text-decoration: none;
   color: white;
- font-size: 20px;
+  font-size: 20px;
   padding: 0 5%;
   display: block;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
@@ -251,7 +251,7 @@ footer a:hover {
   display: grid;
   grid-template-columns: 40% 60%;
   margin-bottom: 5%;
-  padding-top:2%;
+  padding-top: 2%;
 }
 
 .contacto_info {
@@ -569,7 +569,7 @@ footer a:hover {
     grid-template-columns: auto;
   }
 
-  .experiencia_boton-cv { 
+  .experiencia_boton-cv {
     margin: 2% 15% 5% 15%;
     padding: 4%;
   }
@@ -753,7 +753,7 @@ footer a:hover {
   .experiencia_section-container {
     grid-template-columns: auto;
   }
-  .experiencia_boton-cv { 
+  .experiencia_boton-cv {
     margin: 2% 15% 5% 15%;
     padding: 4%;
   }
@@ -812,4 +812,5 @@ footer a:hover {
 }
 
 .carousel-control-next-icon {
-  background-image: url(images/round_chevron_right_black_24dp.png)
+  background-image: url(images/round_chevron_right_black_24dp.png);
+}
