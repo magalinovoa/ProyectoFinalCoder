@@ -82,7 +82,7 @@ header h1 {
   padding: 0 3%;
 }
 
-.nav-header .navlink:hover {
+.navlink:hover {
   color: #212121;
   transform: scale(1.2);
   transition: all 1s;
@@ -187,9 +187,6 @@ footer a:hover {
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
-}
-
-.proyectos-titulo {
   margin: 5% 0 2% 0;
 }
 
@@ -228,23 +225,6 @@ footer a:hover {
   transform: scale(0.9);
 }
 
-.inicio_sobre-mi_2 button {
-  width: 50%;
-  margin: 2% 0;
-  padding: 2%;
-  border: 0px;
-  border-radius: 50px;
-  background-color: #fff;
-  margin: 5% 25%;
-  transition: all 1s;
-}
-
-.inicio_sobre-mi_2 button:hover {
-  font-weight: 600;
-  cursor: pointer;
-  transform: scale(0.95);
-}
-
 /*2.CONTACTO*/
 
 .contacto_container {
@@ -276,7 +256,7 @@ footer a:hover {
 }
 .contacto_info-section a:hover {
   text-decoration: none;
-  font-size: 20px;
+  transform: scale(1.1);
 }
 
 .contacto_form-section {
@@ -637,31 +617,14 @@ footer a:hover {
 
   header {
     display: none;
-    padding: 0;
-    margin: 0;
-    position: relative;
-  }
-
-  header h1 {
-    display: block;
-    padding: 0;
-    width: 100%;
-    text-align: center;
-  }
-
-  .nav-header {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    display: block;
-    text-align: center;
-  }
-
-  .nav-header a {
-    display: block;
   }
 
   /*INICIO*/
+  .inicio-hero {
+    width: 90%;
+    padding: 20% 5%;
+    height: unset;
+  }
 
   .inicio_h3 {
     text-align: center;
@@ -682,38 +645,6 @@ footer a:hover {
     padding: 10% 0%;
   }
 
-  .inicio-imagenes-proyectos {
-    width: 50%;
-    height: 50%;
-  }
-
-  .inicio-hero {
-    width: 90%;
-    padding: 20% 5%;
-    height: unset;
-  }
-
-  .inicio_sobre-mi {
-    height: fit-content;
-    display: grid;
-    grid-template-columns: 100%;
-  }
-
-  .inicio_sobre-mi_1,
-  .inicio_sobre-mi_2 {
-    margin: 0% 30%;
-    padding: 5% 0%;
-    height: fit-content;
-  }
-
-  .inicio_sobre-mi_2 button {
-    width: 80%;
-  }
-
-  .inicio_sobre-mi_2 button:active {
-    transform: scale(0.95);
-  }
-
   /*PORTFOLIO*/
   .portfolio_titulo {
     height: auto;
@@ -731,17 +662,15 @@ footer a:hover {
     margin: 5% 0;
   }
 
-  .sobre-mi_video {
-    height: 40%;
-    width: 80%;
-    padding: 10%;
-  }
-
   /*EXPERIENCIA*/
 
   .experiencia_titulo {
     height: auto;
     padding: 15% 0;
+  }
+
+  .experiencia_section-container {
+    grid-template-columns: auto;
   }
 
   .experiencia_section {
@@ -750,9 +679,6 @@ footer a:hover {
     padding: 5%;
   }
 
-  .experiencia_section-container {
-    grid-template-columns: auto;
-  }
   .experiencia_boton-cv {
     margin: 2% 15% 5% 15%;
     padding: 4%;
