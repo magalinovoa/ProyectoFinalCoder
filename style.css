@@ -57,11 +57,21 @@ header {
   align-items: center;
 }
 
-header h1 {
-  font-size: 25px;
+header a {
+  text-decoration: none;
+
   text-align: left;
   text-transform: uppercase;
   display: block;
+  color: #212121;
+}
+
+header a:hover {
+  color: #212121;
+}
+
+header h1 {
+  font-size: 25px;
 }
 
 .nav-header {
@@ -377,6 +387,10 @@ footer a:hover {
 
 .experiencia_item ul {
   list-style: none;
+}
+
+.experiencia_item li:before {
+  content: "— ";
 }
 
 .experiencia_item h5 {
